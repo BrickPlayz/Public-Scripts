@@ -16,8 +16,7 @@ if getgenv().library then
 end
 
 -- [UI Library Settings]
-local library = getgenv().LibraryOptions
-getgenv().library = library
+getgenv().library = getgenv().LibraryOptions
 
 local dragging, dragInput, dragStart, startPos, dragObject
 local blacklistedKeys = { 
